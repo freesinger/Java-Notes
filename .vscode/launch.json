@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DivisorPattern",
+            "request": "launch",
+            "mainClass": "DivisorPattern"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HarmonicNumber",
+            "request": "launch",
+            "mainClass": "HarmonicNumber"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PowersOfTwo",
+            "request": "launch",
+            "mainClass": "PowersOfTwo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TenHello",
+            "request": "launch",
+            "mainClass": "TenHello"
+        }
+    ]
+}
