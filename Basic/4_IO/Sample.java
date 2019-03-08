@@ -9,5 +9,17 @@ public class Sample {
 
         int[] perm = new int[n];
 
+        /* for (int i = 0; i < n; i++) {
+            perm[i] = i;
+        } */
+
+        for (int j = 0; j < m; j++) {
+            int genNum = (int) (Math.random() * (n - j));
+            perm[j] = genNum;
+        }
+
+        for (int i = 0; i < m; i++)
+            System.out.print(perm[i] + " ");
+        System.out.println();
     }
 }
