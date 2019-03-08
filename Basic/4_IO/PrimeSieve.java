@@ -21,7 +21,7 @@ public class PrimeSieve {
         System.out.print("The number of primes <= " + n + " is ");
 
         for (int i = 2; i <= n; i++)
-            if (PrimeSieve.isPrime(i)) count++;
+            if (isPrime(i)) count++;
 
         System.out.println(count);
     }
