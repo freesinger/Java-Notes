@@ -29,7 +29,7 @@ public class Coupon {
         // repeat until you've collected all n card types
         while (distinct < n) {
             int value = getCoupon(n);            // pick a random card 
-            count++;                             // one more card
+            count++;                          // one more card
             if (!isCollected[value]) {           // discovered a new card type
                 distinct++;
                 isCollected[value] = true;

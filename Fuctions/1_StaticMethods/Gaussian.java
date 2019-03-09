@@ -98,8 +98,8 @@ public class Gaussian {
         double z     = Double.parseDouble(args[0]);
         double mu    = Double.parseDouble(args[1]);
         double sigma = Double.parseDouble(args[2]);
-        StdOut.println(cdf(z, mu, sigma));
+        System.out.println(cdf(z, mu, sigma));
         double y = cdf(z);
-        StdOut.println(inverseCDF(y));
+        System.out.println(inverseCDF(y));
     }
 }
