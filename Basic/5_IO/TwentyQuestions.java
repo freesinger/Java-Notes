@@ -48,6 +48,9 @@ public class TwentyQuestions {
                     System.out.print("Error input! Try again: ");
                     // in.next();
                 }
+            } else {
+                in.close();
+                System.exit(0);
             }
             // guess = in.nextInt();
         }
