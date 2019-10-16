@@ -37,7 +37,7 @@ public class TwentyQuestions {
                     System.out.println("Bingo!");
                     System.exit(0);
                 }
-            } else if (in.hasNext()){
+            } else if (in.hasNext()) {
                 String guessStr = in.next();
 
                 if (guessStr.equals("q") || guessStr.equals("Q")) {
