@@ -1,5 +1,4 @@
 import javax.sound.midi.*;
-import java.lang.reflect.Modifier;
 
 public class MiniMusicCmdLine {
     public static void main(String[] args) {
