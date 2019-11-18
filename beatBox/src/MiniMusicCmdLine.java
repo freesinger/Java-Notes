@@ -21,7 +21,7 @@ public class MiniMusicCmdLine {
             Sequence seq = new Sequence(Sequence.PPQ, 4);
             Track track = seq.createTrack();
 
-            MidiEvent event = null;
+            //MidiEvent event = null;
 
             ShortMessage first = new ShortMessage();
             first.setMessage(192, 1, instrument, 0);
