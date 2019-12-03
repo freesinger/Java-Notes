@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class binarySearch {
+public class BinarySearch {
     // *************查找 binarySearch()****************
     public static void main(String[] args) {
 //        char[] e = { 'a', 'f', 'b', 'c', 'e', 'A', 'C', 'B' };
